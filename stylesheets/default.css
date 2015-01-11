@@ -1,3 +1,73 @@
-html {
-	background-color: red;
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+	margin: 0 auto;
+}
+
+div {
+	display: inline-block;
+	font-size: 2em;
+	height: 65%;	
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 3em;
+	float: left;
+}
+
+h3 a {
+	color: black;
+}
+
+h4 {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul {
+	float: right;
+
+}
+
+nav li {
+	display: inline-block;
+}
+
+div p {
+	padding: 2.5%;
+	width: 60%;
+}
+
+#about {
+	width:70%;	
+	float: left;
+	background-color: #0C090A;
+	color: #D1D0CE;
+	clear: both;
+}
+
+#contact {
+	width: 30%;	
+	float: right;
+	font-size: 1.25em;
+	line-height: 3em;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #B6B6B4;
+}
+
+footer p {
+	padding: 2.5%;
 }
