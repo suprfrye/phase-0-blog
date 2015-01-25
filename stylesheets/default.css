@@ -105,9 +105,9 @@ h4 {
 
 }
 
-/*#contact li:hover {
-	font-size: 110%;
-}*/
+#contact a:hover {
+	font-weight: bold;
+}
 
 img {
 	margin-right: 2%;
