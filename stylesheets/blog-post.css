@@ -1,3 +1,5 @@
 body {
 	font-family: 'Bad Script', cursive;
+	background-size: 100% 100%;
+	background-image: url("../imgs/lined_paper.png") ;
 }
