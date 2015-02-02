@@ -14,23 +14,26 @@
     <h4>Sunday, February 1, 2015</h4>
     <section>
 		<p>
-		In Ruby classes are used to describe objects. This is what gives Ruby it's object-oriented categorization. <em>Instance variables</em> are used to describe the object while <em>instance methods</em> are used to show the object's behavior.
+		There are five types of variables in Ruby: local, instance, class, constant, and global. Each variable type has a different scope, or jurisdiction. Variable types are distinguished using symbols. Ex: local variable => local_variable, instance variable => @instance_variable, class variable => @@class_variable, constant => Constant/CONSTANT, global => $global_variable.
 		</p>
 		<p>
-		Classes are defined with the <em>class</em> keyword follwed by the class name. By convention, the class name is capitalized, and if longer than one word CamelCase is used. Ex:
+		Local variables begin with a lowercase letter or an underscore. They can only be referenced from within the area they are defined. Ex: main, method, loop
 		</p>
-    <p>
-    Classes are composed of variables and methods. Because these variables and methods belong to every <em>instance</em> of the class, we call them instance variables and instance methods. To distinguish local variables from instance variables an @ symbol is used before the variable name. Ex:
-    </p>
+        <p>
+        Instance variables begin with an @ symbol. They are defined within a class and are accessible only for a specific instance of the class. Ex: 
+        </p>
 		<p>
-		Instance methods use the same structure as methods defined outside of a class. If we want to populate instance variables upon a class instantiation, we use the initialize method. When we create a new instance of a class, the initialize method runs and any arguments passed in are then assigned to an instance variable. Ex:
+		Class variables begin with two @ symbols. They are defined within a class and are accessible for every instance of the class. If the class variable changes, this change will affect every instance of the class. Ex:
 		</p>
 		<p>
-		Class variables have very specific properties. They can be writer, reader, or both. Writer variables allow you to modify the value of the variable. Reader variables allow you to retrieve the value of the variable. The attribute method allows you to declare what type of variable to ensure that your variables behave in the manner you want. Ex:
+		Constants begin with a capital letter. When a constant is declared within a class or method, it is accessible from anywhere within the class or method. If a constant is declared in main or the module it is accessible to all components of the module. In this way it acts like a global variable. But, unlike a global variable when you modify a constant, a warning will display informing you of the change. 
 		</p> 
-    <p>
-    Combining all of the pieces together our class will look like this. Ex:
-    </p>     
+        <p>
+        Global variables start with a $ symbol. No matter where they are declared they can be accessed. 
+        </p>
+        <p>
+        Which variable type to use depends on your needs. But, as a rule it is best to avoid using global variables. Because of their large scope and accessibility it is harder to monitor changes. 
+        </p>     
     </section>
   </body>
 
