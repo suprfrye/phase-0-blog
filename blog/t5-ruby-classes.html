@@ -2,13 +2,23 @@
 <html>
   <head>
     <title>Bloggin' | Ruby Class Object</title>
-    <meta charset="UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+   <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Bad+Script|Josefin+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">    
   </head>
 
   <body>
+    <header>
+        <h3><a href="../index.html">Tara C. Frye</a></h3>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Week 5</h1>
     <h2>Ruby Class Objects</h2>
     <h4>Sunday, January 25, 2015</h4>
@@ -19,18 +29,18 @@
 		<p>
 		Classes are defined with the <em>class</em> keyword follwed by the class name. By convention, the class name is capitalized, and if longer than one word CamelCase is used. Ex:
 		</p>
-    <p>
-    Classes are composed of variables and methods. Because these variables and methods belong to every <em>instance</em> of the class, we call them instance variables and instance methods. To distinguish local variables from instance variables an @ symbol is used before the variable name. Ex:
-    </p>
+        <p>
+        Classes are composed of variables and methods. Because these variables and methods belong to every <em>instance</em> of the class, we call them instance variables and instance methods. To distinguish local variables from instance variables an @ symbol is used before the variable name. Ex:
+        </p>
 		<p>
 		Instance methods use the same structure as methods defined outside of a class. If we want to populate instance variables upon a class instantiation, we use the initialize method. When we create a new instance of a class, the initialize method runs and any arguments passed in are then assigned to an instance variable. Ex:
 		</p>
 		<p>
 		Class variables have very specific properties. They can be writer, reader, or both. Writer variables allow you to modify the value of the variable. Reader variables allow you to retrieve the value of the variable. The attribute method allows you to declare what type of variable to ensure that your variables behave in the manner you want. Ex:
 		</p> 
-    <p>
-    Combining all of the pieces together our class will look like this. Ex:
-    </p>     
+        <p>
+        Combining all of the pieces together our class will look like this. Ex:
+        </p>     
     </section>
   </body>
 

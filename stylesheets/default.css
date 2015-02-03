@@ -23,6 +23,10 @@ h3 {
 	/*background-color: yellow;*/
 }
 
+span {
+	font-size: 0.75em;
+}
+
 a {
 	text-decoration: none;
 	color: black;
