@@ -52,6 +52,15 @@ nav li:hover {
 	font-weight: bold;
 }
 
+div {
+	width: 80%;
+	margin-top: 2.5%;
+}
+
+div a {
+	color: #f30;
+}
+
 section {
 	width: 65%;
 	margin: 0 auto;
