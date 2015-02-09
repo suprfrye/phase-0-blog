@@ -79,3 +79,9 @@ section ul {
 section ul a:hover {
 	color: #f30;
 }
+
+table, tr, td {
+	border: solid 1px black;
+	text-align: center;
+	padding: 5px;
+}
